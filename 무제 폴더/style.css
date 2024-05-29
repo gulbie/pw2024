@@ -62,27 +62,20 @@ table{
     grid-template-rows: repeat(3,minimax(200px,auto));
 
     grid-gap: 4px;
-    background-color: rgb(114, 114, 114);
+    background-color: orangered;
     padding: 20px;
-    transform: skewY(8deg)
+    transform: skewY(10deg)
 
   }
   
   .grid-container > div {
     background-color: rgba(255, 255, 255);
-    text-align: left;
-    padding: 10px 10px;
-    font-size: 10px;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 100px;
   }
 
   .item1:nth-child(1){
     grid-column: 1 / span 2;
     grid-row: 1 / span 3;
-    /* transform: skewY(-8deg) */
-  }
-
-  .item3:nth-child(3){
-    /* grid-column: 1 / span 2;
-    grid-row: 1 / span 3; */
-    transform: skewY(-16deg)
   }
