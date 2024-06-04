@@ -106,6 +106,10 @@ titletexts{
   text-align:center;
 }
 
+.titletexts_bio{
+  right: 10vw;
+}
+
 h1 {
   font-size: 36px;
   font-weight: 400;
