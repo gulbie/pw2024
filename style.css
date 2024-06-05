@@ -31,7 +31,7 @@ p {
   border-style:dashed;
   margin-left: 10px;
   transform: skewY(-4deg);
-  max-width: 40%;
+  max-width: 60%;
 }
 
 a{
@@ -106,9 +106,6 @@ titletexts{
   text-align:center;
 }
 
-.titletexts_bio{
-  right: 10vw;
-}
 
 h1 {
   font-size: 36px;
