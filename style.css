@@ -1,14 +1,14 @@
 body {
   font-family: "Pretendard", sans-serif;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   line-height: 1.5;
   word-break: keep-all;
 }
 
 
-
 .font-big {
-  font-size:150%;
+  font-size:170%;
+  padding-left: 4%;
 	}	
 
 .font-small {
@@ -34,20 +34,37 @@ p {
   max-width: 60%;
 }
 
+p:hover{
+  transform: skewY(4deg);
+}
+
+.page {
+  color: rgb(54, 63, 68);
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  stroke-width: 1;
+  border-style:dashed;
+  margin-left: 10px;
+  transform: skewY(-4deg);
+  max-width: 60%;
+}
+
 a{
-  color: rgb(38, 0, 255);
-  text-decoration-line:underline;
+  color: orangered;
+}
+
+a.menu{
+  color: white;
 }
 
 a:hover {
   color: rgb(0, 0, 0);
-  text-decoration-line:underline;
 }
 
 .menu{
   text-align-last: center;
   background-color: orangered;
-
 }
 
 .menu:hover{
@@ -97,8 +114,14 @@ titletexts{
   right: 68vw;
   padding-top: 30px;
   font-size:3vw;
-  line-height: 1.2;
+  line-height: 1.1;
+  transition:0.5s;
+}
 
+titletexts:hover{
+  color: black;
+  transform:skewY(20deg);
+  transition:1s;
 }
 
 .titletexts_wrap{
