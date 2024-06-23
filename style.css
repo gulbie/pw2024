@@ -3,6 +3,9 @@ body {
   /* background-color: rgb(255, 255, 255); */
   line-height: 1.5;
   word-break: keep-all;
+  background-color: rgb(247, 247, 247);
+
+
 }
 
 
@@ -81,7 +84,6 @@ img {
   margin: 10px 8px;
   padding: 300px 20% 10% 10%;
   line-height: 1.8;
-  background-color: rgb(247, 247, 247);
   border-width: 3px;
   
 }
@@ -212,4 +214,9 @@ table {
   font-size: 1.2rem;
   line-height: 5vh;
   padding-bottom: 40vw;
+}
+
+.row {
+  margin-left: 30%;
+  margin-top: 30%;
 }
